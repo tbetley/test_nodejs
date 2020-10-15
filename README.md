@@ -21,17 +21,8 @@ Host 18.217.120.194
 IdentityFile /path/to/key.pem
 ```
 
-
-
 ### Application Configuration
-To run the application, ensure node v14.13.1 is on the system as well as npm 6.14.8.
-
-```bash
-node --version
-npm --version
-```
-
-The default port is set at 8080 in development. Set the PORT environment variable to 80 in order to allow access to the application externally:
+The default port is set at ???? in development. Set the PORT environment variable to 80 in order to allow access to the application externally:
 
 ```bash
 export PORT=80
