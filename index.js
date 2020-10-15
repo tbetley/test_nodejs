@@ -8,12 +8,12 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "/views/index.html"));
 
-})
+});
 
 // return basic form
 app.get("/form", (req, res) => {
     res.sendFile(path.join(__dirname, "/views/form.html"));
-})
+});
 
 // post endpoint for form
 app.post("/submit", (req, res) => {
@@ -30,4 +30,4 @@ const PORT = process.env.PORT || 8080;
 
 app.listen(PORT, () => {
     console.log(`Server listening on ${PORT}...`);
-})
+});
